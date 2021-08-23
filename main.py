@@ -11,4 +11,14 @@ else:
     print("Pass the message to be encrypted using the option '-m'.")
     exit()
 
-print(message)
+trail_1 = []
+trail_2 = []
+trail_switch = 1
+
+for letter in message:
+    if trail_switch == 1:
+        trail_1.append(letter)
+        trail_switch = 2
+    else:
+        trail_2.append(letter)
+        trail_switch = 1
