@@ -6,7 +6,7 @@ This script was made to study the many ways to encode a message described in [_T
 ## Usage
 
 
-main.py [options] **-m [_message_]**
+rail-fence.py [option] -m [_message_]
 
 options:
 - **e** _encode a message_
@@ -19,7 +19,7 @@ params:
 
 e.g.:
 ```bash
-python main.py e -m "mateus"
+python rail-fence.py e -m "mateus"
 ```
 ```bash
   Message:

@@ -11,7 +11,7 @@ if "-h" in arguments:
 A Python script to encode messages using the Rail Fence algorithm.
 By Mateus Felipe Gonçalves <mateusfg7@protonmail.com>
 
-Usage: main.py [options] -m [message]
+Usage: rail-fence.py [options] -m [message]
 
 options:
     e   encode a message.
