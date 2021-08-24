@@ -5,14 +5,28 @@ This script was made to study the many ways to encode a message described in [_T
 
 ## Usage
 
-main.py **-m [_message_]**
+
+main.py [options] **-m [_message_]**
+
+options:
+- **e** _encode a message_
+- **d** _decode a message_
+
+params:
+- `-h` _help menu_
+- `-m` _message to be ciphered. e.g.: `-m "message"`_
+
 
 e.g.:
 ```bash
-python main.py -m "mateus"
-
-Message: mateus
-Cipher: MTUAES
+python main.py e -m "mateus"
+```
+```bash
+  Message:
+  mateus
+  
+  Encoded Message:
+  MTUAES
 
 ```
 
