@@ -1,3 +1,7 @@
+import sys
+
+args = sys.argv
+
 def encode(string_to_encode):
     trails = {
         0: [],
@@ -12,4 +16,7 @@ def encode(string_to_encode):
     cipher_message = ''.join(trails[0] + trails[1])
 
     return cipher_message.upper()
+
+if __name__ == "__main__":
+    print(encode(args[1]))
 
