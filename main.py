@@ -2,6 +2,7 @@
 
 import sys
 from encode import encode
+from decode import decode
 
 arguments = sys.argv
 
@@ -12,4 +13,19 @@ else:
     print("Pass the message to be encrypted using the option '-m'.")
     exit()
 
-print(f"\nMessage: {message}\nCipher: {encode(message)}")
+if "e" in arguments:
+    print(f"""
+    Message:
+    {message.lower()}
+
+    Encoded Message:
+    {encode(message)}
+    """)
+elif "d" in arguments:
+    print(f"""
+    Message:
+    {message.upper()}
+    
+    Decoded Message:
+    {decode(message)}
+    """)
