@@ -1,7 +1,7 @@
 # pyRailFence Cipher
 A Python script to encode messages using the Rail Fence algorithm.
 
-This script was made to study the many ways to encode a message described in [_The Code Book_](https://en.wikipedia.org/wiki/The_Code_Book), of [Simon Singh](https://en.wikipedia.org/wiki/Simon_Singh).
+This script was made to study the many ways to encode a message described in [_The Code Book_](https://en.wikipedia.org/wiki/The_Code_Book), by [Simon Singh](https://en.wikipedia.org/wiki/Simon_Singh).
 
 ## Usage
 
